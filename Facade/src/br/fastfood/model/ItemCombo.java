@@ -1,4 +1,6 @@
 package br.fastfood.model;
 
-public interface ItemCombo {
+public interface ItemCombo{
+    String getNome();
+    double getPreco();
 }
