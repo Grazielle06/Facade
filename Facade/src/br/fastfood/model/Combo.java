@@ -1,9 +1,9 @@
 package br.fastfood.model;
 
 public class Combo {
-    private ItemCombo burger;
-    private ItemCombo bebida;
-    private ItemCombo sobremesa;
+    private final ItemCombo burger;
+    private final ItemCombo bebida;
+    private final ItemCombo sobremesa;
    // private double precoTotal;
 
 
